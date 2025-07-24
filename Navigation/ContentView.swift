@@ -12,14 +12,16 @@ struct ContentView: View {
         NavigationStack {
             VStack {
                 Text("This is the root view")
-                NavigationLink(destination: Text("You've arrived at the second view!")) {
-                    /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Label Content@*/Text("Navigate")/*@END_MENU_TOKEN@*/
+                NavigationLink(destination: Second_view()){
+                    Text("Click Me!")
                 }
+                
+                
                 
             }
 
             
-            
+        
             
         }
     }
