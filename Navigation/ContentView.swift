@@ -19,8 +19,10 @@ struct ContentView: View {
                 
                 
             }
+            .navigationTitle("Casa")
+            .navigationBarTitleDisplayMode(.inline)
+            .navigationBarHidden(true)
 
-            
         
             
         }
