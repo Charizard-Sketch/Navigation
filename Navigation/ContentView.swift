@@ -20,7 +20,9 @@ struct ContentView: View {
                     Text("About")
                 }
                 
-                
+                NavigationLink(destination: Fourthview()) {
+                    Text("Suprise!!")
+                }
                     
                 }
             
