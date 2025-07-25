@@ -16,9 +16,14 @@ struct ContentView: View {
                     Text("Click Me!")
                 }
                 
+                NavigationLink(destination: Thirdview()){
+                    Text("About")
+                }
                 
                 
-            }
+                    
+                }
+            
             .navigationTitle("Casa")
             .navigationBarTitleDisplayMode(.inline)
             .navigationBarHidden(true)
@@ -29,6 +34,6 @@ struct ContentView: View {
     }
 }
 
-#Preview {
-    ContentView()
-}
+    #Preview {
+        ContentView()
+        }
