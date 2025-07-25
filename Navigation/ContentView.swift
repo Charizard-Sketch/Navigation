@@ -15,20 +15,23 @@ struct ContentView: View {
                     .fontWeight(.bold)
                     .font(.system(size: 18));                NavigationLink(destination: Second_view()){
                         Text("Click Me!")
+                            .foregroundColor(.green)
                             .fontWeight(.bold)
                             .font(.system(size: 16))
                 }
                 
                 NavigationLink(destination: Thirdview()){
                     Text("About")
+                        .foregroundColor(.green)
                         .fontWeight(.bold)
                         .font(.system(size: 16))
                 }
                 
                 NavigationLink(destination: Fourthview()) {
                     Text("Suprise!!")
+                        .foregroundColor(.green)
                         .fontWeight(.bold)
-                        .font(.system(size: 17))
+                        .font(.system(size: 19))
                 }
                     
                 }

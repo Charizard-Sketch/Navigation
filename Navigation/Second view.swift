@@ -9,6 +9,9 @@ import SwiftUI
 
 struct Second_view: View {
     var body: some View {
+        Text("Hello")
+            .fontWeight(.bold)
+            .font(.system(size: 18))
         Text("This is the second view!")
             .fontWeight(.bold)
             .font(.system(size: 18))
