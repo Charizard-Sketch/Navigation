@@ -12,16 +12,23 @@ struct ContentView: View {
         NavigationStack {
             VStack {
                 Text("This is the root view")
-                NavigationLink(destination: Second_view()){
-                    Text("Click Me!")
+                    .fontWeight(.bold)
+                    .font(.system(size: 18));                NavigationLink(destination: Second_view()){
+                        Text("Click Me!")
+                            .fontWeight(.bold)
+                            .font(.system(size: 16))
                 }
                 
                 NavigationLink(destination: Thirdview()){
                     Text("About")
+                        .fontWeight(.bold)
+                        .font(.system(size: 16))
                 }
                 
                 NavigationLink(destination: Fourthview()) {
                     Text("Suprise!!")
+                        .fontWeight(.bold)
+                        .font(.system(size: 17))
                 }
                     
                 }

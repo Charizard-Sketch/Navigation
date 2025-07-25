@@ -9,7 +9,9 @@ import SwiftUI
 
 struct Fourthview: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text("This is the fourth view")
+            .fontWeight(.bold)
+            .font(.system(size: 18))
     }
 }
 
